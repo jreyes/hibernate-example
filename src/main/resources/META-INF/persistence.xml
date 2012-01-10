@@ -5,6 +5,8 @@
     <persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
 
+        <class>org.hibernate.example.model.Boat</class>
+        <class>org.hibernate.example.model.SpeedBoat</class>
         <class>org.hibernate.example.model.User</class>
         <class>org.hibernate.example.model.OfficeUser</class>
 
